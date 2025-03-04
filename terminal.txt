@@ -1,0 +1,20 @@
+python train.py
+#iris_clf:ejkh6khzb23cmse6
+bentoml models list
+C:\Users\Youssef\bentoml
+
+
+python test.py
+
+
+dans service.py;:
+bentoml serve service.py:svc --reload
+
+
+http://localhost:3000
+
+
+
+dans bentofile.yaml:
+bentoml build
+bentoml list
